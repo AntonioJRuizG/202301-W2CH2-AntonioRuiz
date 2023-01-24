@@ -11,8 +11,18 @@ const arr = [
   ['Water', 'oil'],
 ];
 
-arr.forEach((element) => {
-  console.log(
-    `${element[0]}, ${element[0]} : ${strictEquals(element[0], element[1])}`
-  );
-});
+const computeResult = (array) => {
+  array.forEach((element) => {
+    const row = document.createElement('li');
+    row.classList.add(`item`);
+    document.querySelector('.list').append(row);
+    row.innerHTML = `${element[0]}, ${element[0]} : ${strictEquals(
+      element[0],
+      element[1]
+    )}`;
+  });
+};
+
+window.onload = function () {
+  computeResult(arr);
+};
