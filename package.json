@@ -1,0 +1,21 @@
+{
+  "name": "exercises_week2",
+  "version": "1.0.0",
+  "description": "Ejercicios semana 2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "husky": "^8.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
