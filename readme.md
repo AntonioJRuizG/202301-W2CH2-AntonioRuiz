@@ -24,8 +24,8 @@ Escribe en un módulo propio, una función llamada strictEquals(a, b) que devuel
 Testea la función desde otro fichero con este set de pruebas:
 
 Dada la función strictEquals
-Cuando se comparan <A> y <B>
-Entonces el resultado será <Result>
+Cuando se comparan A y B
+Entonces el resultado será Result
 
 A	B	RESULT	
 1	1	true	
